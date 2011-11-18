@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+t/Sailthru-Client.t
+lib/Sailthru/Client.pm
+META.yml                                 Module meta-data (added by MakeMaker)
