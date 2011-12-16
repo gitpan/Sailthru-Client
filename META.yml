@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Sailthru-Client
-version:            1.000
+version:            1.001
 abstract:           Perl module for accessing SailThru's API
 author:
     - Sam Gerstenzang <sgerstenzang@stanford.edu>, Steve Miketa <steve@sailthru.com>

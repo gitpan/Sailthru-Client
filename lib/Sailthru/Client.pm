@@ -1,12 +1,13 @@
 package Sailthru::Client;
 
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 
 use strict;
 use warnings;
 
 use constant API_URI => 'https://api.sailthru.com';
 
+use Encode qw(encode_utf8);
 use Digest::MD5 qw(md5_hex);
 use JSON::XS;
 use LWP;
@@ -200,7 +201,7 @@ sub _getSignatureHash {
 	$self->_extractValues( $params, \@values );
 	@values = sort @values;
 	my $string = $self->{secret} . join( '', @values );
-	return md5_hex($string);
+	return md5_hex(encode_utf8($string));
 }
 
 #sub _flatten_hash {
