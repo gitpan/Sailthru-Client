@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               Sailthru-Client
-version:            1.001
-abstract:           Perl module for accessing SailThru's API
+version:            1.002
+abstract:           Perl module for accessing Sailthru's API
 author:
     - Sam Gerstenzang <sgerstenzang@stanford.edu>, Steve Miketa <steve@sailthru.com>
 license:            unknown
@@ -17,6 +17,7 @@ requires:
     LWP:                  0
     LWP::Protocol::https:  0
     Params::Validate:     0
+    URI:                  0
     URI::Escape:          0
 no_index:
     directory:
