@@ -38,10 +38,11 @@
             "LWP::UserAgent" : "0",
             "Params::Validate" : "0",
             "Readonly" : "0",
+            "Test::MockModule" : "0",
             "URI" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "2.000"
+   "version" : "2.001"
 }
